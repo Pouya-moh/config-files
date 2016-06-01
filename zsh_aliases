@@ -1,0 +1,13 @@
+#my aliases:
+#alias ll='ls -alF'
+alias clc='tput reset'
+alias lc='clc && pwd && la -alF'
+alias cl='clc && pwd && la -alF'
+alias lg='ls -alF | grep -i '
+alias path='echo -e ${PATH//:/\\n}'
+alias na='xdg-open . &!'
+alias open='xdg-open'
+alias vless='/usr/share/vim/vim74/macros/less.sh'
+alias svndiff='svn diff --diff-cmd='meld''
+alias lsd='ls -d */'
+alias superbuild='mkdir build && cd build'
