@@ -80,4 +80,4 @@ mkdir -p $HOME/.emacs.d/etc && $HOME/.emacs.d/etc
 git clone https://github.com/targzeta/move-lines.git
 git clone https://github.com/Pouya-moh/wc-mode.git
 git clone https://github.com/Pouya-moh/yamt-theme.git
-
+git clone https://github.com/Pouya-moh/auto-glossaries-mode.git
