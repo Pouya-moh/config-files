@@ -173,3 +173,8 @@ if [ -f ~/.zsh_aliases ]; then
 	. ~/.zsh_aliases
 fi
 export PATH=$HOME/.bin:$PATH
+
+## related to https://github.com/chauncey-garrett/zsh-prompt-garrett/issues/32
+## and to https://github.com/sorin-ionescu/prezto/issues/965
+# Tell prezto we can manage this prompt
+zstyle ':prezto:module:prompt' managed 'yes'
